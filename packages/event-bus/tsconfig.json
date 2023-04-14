@@ -1,0 +1,25 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Client",
+    "include": ["src"],
+    "exclude": ["node_module"],
+    "compilerOptions": {
+        "types": ["jest"],
+        "declaration": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "allowJs": true,
+        "target": "es2015",
+        "noImplicitAny": false,
+        "incremental": true,
+        "noImplicitThis": true,
+        "noEmit": true,
+        "downlevelIteration": true,
+        "jsx": "preserve",
+        "importHelpers": true,
+        "removeComments": true,
+        "resolveJsonModule": true
+    }
+}
+  
